@@ -25,14 +25,14 @@ class A {
 }
 
 class B extends A {
-    public int i = 20;
+//    public int i = 20;
 
 //    public int sum() {
 //        return i + 20;
 //    }
 
     public int getI() {
-        return i;
+        return i + 10;
     }
 
     public int sum1() {
